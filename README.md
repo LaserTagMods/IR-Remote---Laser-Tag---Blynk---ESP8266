@@ -10,4 +10,6 @@ This is controlled via the Blynk mobile application and the QR is provided for q
 
 When setting up this application and a device, simply copy the authentication code from the blynk app and paste into the code and you are good to go.
 
+I do not show a resistor in the diagram, honestly I argue it's need... it's for testing and the pulses are so short I could care less. It's also being driven at 3.3 v on an esp at a potential of 20 mA and the peak forward current of the task is 200mA at 5v. If your concerned about the esp dumping 10 times more than it's capacity, add a resistor.
+
 Enjoy!
